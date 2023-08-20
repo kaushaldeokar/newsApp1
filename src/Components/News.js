@@ -285,7 +285,7 @@ export class News extends Component {
         this.setState({
             articles:parsedData.articles
         })
-    }
+    } 
 
      handlePrevclick=async()=>{
         console.log("prev");
